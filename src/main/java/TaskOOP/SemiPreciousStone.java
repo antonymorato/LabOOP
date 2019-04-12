@@ -6,10 +6,9 @@ public class SemiPreciousStone extends Stone {
 //    private double weight;
 //    private double price;
 
-    public SemiPreciousStone(String name, double weight, double price) {
+    public SemiPreciousStone(String name, double weight, double price,int transparency) {
+        super(weight,price,transparency);
         this.name = name;
-        this.weight = weight;
-        this.price = price;
     }
 
     public void setName(String name) {

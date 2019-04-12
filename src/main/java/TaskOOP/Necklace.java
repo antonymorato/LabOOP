@@ -1,6 +1,7 @@
 package TaskOOP;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Necklace {
@@ -9,15 +10,16 @@ public class Necklace {
 
     protected List<Stone> necklace;
     private int amount;
-    private String name;
-    Necklace(Stone[] stones)
+
+    Necklace()
     {   necklace=new ArrayList<>();
-        name="Semi Precious Necklace";
 
     }
-    public boolean cmp(Stone stone)
+    public void AddStone(Stone stone)
     {
-
+     this.necklace.add(stone);
+     totalPrice+=stone.getPrice();
+     totalWeight+=stone.getWeight();
     }
 
     public void setTotalPrice(double totalPrice) {
@@ -30,5 +32,26 @@ public class Necklace {
 
     public void setAmount(int amount) {
         this.amount = amount;
+    }
+
+    public double getTotalPrice() {
+        return totalPrice;
+    }
+
+    public double getTotalWeight() {
+        return totalWeight;
+    }
+
+    public int getAmount() {
+        return amount;
+    }
+    public void necklaceStonesSort()
+    {
+        Collections.sort(necklace);
+    }
+    @Override
+    public String toString()
+    {return "Necklace:\n"+"Weight:"+String.format("%.4f", totalWeight)+";Price:"+String.format("%.4f",totalPrice);
+
     }
 }

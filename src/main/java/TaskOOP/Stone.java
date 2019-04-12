@@ -1,12 +1,16 @@
 package TaskOOP;
 
-public class Stone {
+public class Stone implements Comparable{
     protected String name;
     protected double weight;
     protected double price;
-    private double transparency;
-    public static final double maxTransparency=1;
-    public static final double minTransparency=0;
+    protected double transparency;
+    public static final int maxTransparency=10;
+    public Stone( double weight, double price,int transparency) {
+        this.weight = weight;
+        this.price = price;
+        this.transparency=transparency;
+    }
     public double getWeight() {
         return this.weight;
     }
@@ -15,4 +19,8 @@ public class Stone {
         return this.price;
     }
 
+    @Override
+    public int compareTo(Object o) {
+        return 0;
+    }
 }

@@ -28,11 +28,10 @@ public class App {
 //                totalSemiPreciousWeight += stone.getWeight();
 //                totalSemiPreciousPrice += stone.getPrice();
 //            }
-        System.out.println("Precious necklace:\nTotal weight: " + totalPreciousWeight
-                + ";\nTotal price: " + totalPreciousPrice + "\n");
+        Controller controller= new Controller();
+        controller.begin();
 
-        System.out.println("Semiprecious necklace:\nTotal weight: " + totalSemiPreciousWeight
-                + ";\nTotal price: " + totalSemiPreciousPrice);
+
         //System.out.println(Stone.);
     }
 
