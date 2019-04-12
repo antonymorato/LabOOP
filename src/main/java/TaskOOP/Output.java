@@ -1,8 +1,9 @@
 package TaskOOP;
 
 public class Output {
-    public static void getInf(Gems gem)
+    public static void getInf(Necklace nek)
     {
-        System.out.println("Type:"+ gem.getName()+"; Price:"+gem.getPrice()+"; Weight:"+gem.getWeight());
+        System.out.println("Type:"+ nek+"; Price:"+nek+"; Weight:"+nek);
+    Necklace.class.toString();
     }
 }
