@@ -1,6 +1,8 @@
 package TaskOOP;
 
-public class Stone implements Comparable{
+
+
+public class Stone implements Comparable<Stone> {
     protected String name;
     protected double weight;
     protected double price;
@@ -19,8 +21,12 @@ public class Stone implements Comparable{
         return this.price;
     }
 
+
+
     @Override
-    public int compareTo(Object o) {
-        return 0;
+    public int compareTo(Stone stone) {
+        if(stone.price==this.price) return 0;
+        if (this.price<stone.price) return -1;
+        else return 1;
     }
 }

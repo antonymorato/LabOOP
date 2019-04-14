@@ -2,9 +2,9 @@ package TaskOOP;
 
 public class PreciousStone extends Stone {
 
-    public PreciousStone(String name, double weight, double price,int transparency) {
+    public PreciousStone( double weight, double price,int transparency) {
       super(weight,price,transparency);
-        this.name = name;
+        this.name = "Precious Stone";
     }
 
     public void setName(String name) {
@@ -27,8 +27,6 @@ public class PreciousStone extends Stone {
         return price;
     }
 
-    public void setPrice(double price) {
-        this.price = price;
-    }
+
 
 }

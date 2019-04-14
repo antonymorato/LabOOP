@@ -10,10 +10,11 @@ public  class Controller {
     private int inputAmount;
     private int minTransp;
     private int maxTransp;
+
     public Controller()
     {   stoneList=new ArrayList<>();
         f=new Scanner(System.in);
-    rand=new Random();
+        rand=new Random();
 
     }
 
@@ -23,6 +24,7 @@ public  class Controller {
             getData(necklace);
             makeStones();
             makeNecklace(necklace);
+            Sort(necklace);
             output(necklace);
             necklace.necklaceStonesSort();
         }
@@ -41,37 +43,34 @@ public  class Controller {
 
     public void makeStones()
     { double i;
-        for(i=0;i<2*inputAmount;i++)
+        for(i=0;i<inputAmount*2;i++)
         {
             if (getType()==1)
             {
-                stoneList.add(new PreciousStone("preciousStone" + i, i / 10 + i / 100, i * 1000,rand.nextInt(Stone.maxTransparency+1)) );
+                stoneList.add(new PreciousStone(  i / 10 + i / 100, i * 1000,rand.nextInt(Stone.maxTransparency+1)) );
             }
             else if(getType()==0) {
-                stoneList.add(new SemiPreciousStone("semiPreciousStone" + i, i / 5 + i / 150, i * 120 + i / 7,rand.nextInt(Stone.maxTransparency+1)));
+                stoneList.add(new SemiPreciousStone( i / 5 + i / 150, i * 120 + i / 7,rand.nextInt(Stone.maxTransparency+1)));
             }
         }
     }
     public void makeNecklace(Necklace necklace)
-    {   for(Stone stone:stoneList)
-        if (stone.getPrice()>=inputPrice)
+    {   for(Stone stone:stoneList) {
+        if (stone.getPrice() >= inputPrice && stone.transparency>=minTransp && stone.transparency<=maxTransp)
             necklace.AddStone(stone);
+        if(necklace.necklace.size()==inputAmount)
+            break;
     }
-    public double getInputPrice() {
-        return inputPrice;
-    }
-    public boolean cmp(Stone stone1)
-    {
-        if(stone1.getPrice()>=inputPrice)
-            return true;
-
-        else {
-            return false;
+        if (necklace.necklace.size()<inputAmount)
+        {   stoneList.clear();
+            makeStones();
+            makeNecklace(necklace);
         }
     }
-    public int getStonesByTransp()
+
+    public int getStonesByTransp(Necklace necklace)
     {int res=0;
-        for(Stone stone:stoneList)
+        for(Stone stone:necklace.necklace)
         {
             if(stone.transparency>=minTransp && stone.transparency<=maxTransp)
                 res++;
@@ -83,10 +82,30 @@ public  class Controller {
         temp = rand.nextInt(2);
         return temp;
     }
+
+    public void swap(Necklace necklace,int x,int y)
+    {    Stone temp;
+        temp=necklace.necklace.get(y);
+        necklace.necklace.set(y,necklace.necklace.get(x));
+        necklace.necklace.set(x,temp);
+
+    }
+    public void Sort(Necklace necklace) {
+
+        for (int i = 0; i < necklace.necklace.size() - 1; i++) {
+            for (int j = 0; j < necklace.necklace.size() - i - 1; j++) {
+          if(necklace.necklace.get(j).compareTo(necklace.necklace.get(j+1))==1){
+                    swap(necklace,j, j + 1);
+
+                }
+            }
+        }
+    }
     public void output(Necklace necklace)
     {
         System.out.println(necklace.toString());
-        System.out.println("amount of stones with transp. from "+minTransp+" to "+maxTransp+":"+ getStonesByTransp());
+        System.out.println("amount of stones with transp. from "+minTransp+" to "+maxTransp+":"+ getStonesByTransp(necklace));
+        necklace.print();
     }
 }
 

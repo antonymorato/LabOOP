@@ -54,4 +54,12 @@ public class Necklace {
     {return "Necklace:\n"+"Weight:"+String.format("%.4f", totalWeight)+";Price:"+String.format("%.4f",totalPrice);
 
     }
+
+    public void print()
+    {
+        for (Stone stone:necklace)
+        {
+            System.out.println("Stone:"+stone.name+"\tPrice:"+String.format("%.4f",stone.price)+"\tWeight:"+String.format("%.4f",stone.weight)+"Transparency:"+stone.transparency);
+        }
+    }
 }

@@ -3,22 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="c49b5d29-a3c6-4c25-9ed5-b8dd1a140a58" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TaskOOP/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TaskOOP/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TaskOOP/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TaskOOP/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TaskOOP/Necklace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TaskOOP/Necklace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TaskOOP/Output.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TaskOOP/PreciousStone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TaskOOP/PreciousStone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TaskOOP/SemiPreciousStone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TaskOOP/SemiPreciousStone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TaskOOP/Stone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TaskOOP/Stone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TaskOOP/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TaskOOP/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TaskOOP/Diamond.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TaskOOP/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TaskOOP/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/TaskOOP/Necklace.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TaskOOP/Necklace.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TaskOOP/Output.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TaskOOP/PreciousNecklace.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/TaskOOP/PreciousStone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TaskOOP/PreciousStone.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/TaskOOP/SemiPreciousStone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TaskOOP/SemiPreciousStone.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/TaskOOP/Stone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TaskOOP/Stone.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,7 +27,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TaskOOP/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="527">
               <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -50,22 +44,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TaskOOP/Necklace.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+            <state relative-caret-position="187">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-                <element signature="e#619#620#0" expanded="true" />
-                <element signature="e#673#674#0" expanded="true" />
-                <element signature="e#719#720#0" expanded="true" />
-                <element signature="e#546#547#0" expanded="true" />
-                <element signature="e#582#583#0" expanded="true" />
-                <element signature="e#671#672#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
                 <element signature="e#776#777#0" expanded="true" />
-                <element signature="e#754#755#0" expanded="true" />
-                <element signature="e#783#784#0" expanded="true" />
+                <element signature="e#809#810#0" expanded="true" />
                 <element signature="e#983#984#0" expanded="true" />
                 <element signature="e#1025#1026#0" expanded="true" />
               </folding>
@@ -76,12 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TaskOOP/PreciousStone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-              <folding>
-                <element signature="e#344#345#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -89,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TaskOOP/SemiPreciousStone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            <state relative-caret-position="102">
+              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -98,11 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/TaskOOP/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="88" column="95" selection-start-line="88" selection-start-column="95" selection-end-line="88" selection-end-column="95" />
-              <folding>
-                <element signature="e#1888#1889#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="171">
+              <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -110,14 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TaskOOP/Stone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="17" />
-              <folding>
-                <element signature="e#286#287#0" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#578#579#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="243">
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -149,10 +120,10 @@
         <option value="$PROJECT_DIR$/src/main/java/TaskOOP/Builder.java" />
         <option value="$PROJECT_DIR$/src/main/java/TaskOOP/PreciousNecklace.java" />
         <option value="$PROJECT_DIR$/src/main/java/TaskOOP/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TaskOOP/Necklace.java" />
         <option value="$PROJECT_DIR$/src/main/java/TaskOOP/SemiPreciousStone.java" />
         <option value="$PROJECT_DIR$/src/main/java/TaskOOP/PreciousStone.java" />
         <option value="$PROJECT_DIR$/src/main/java/TaskOOP/Stone.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TaskOOP/Necklace.java" />
         <option value="$PROJECT_DIR$/src/main/java/TaskOOP/Controller.java" />
       </list>
     </option>
@@ -165,8 +136,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="1378" />
+    <option name="x" value="417" />
+    <option name="y" value="38" />
+    <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectView">
@@ -209,6 +181,12 @@
             </path>
             <path>
               <item name="TaskOOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaskOOP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TaskOOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -222,8 +200,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555093618413" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/schemo/Task1" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555098426914" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Sorts" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -294,7 +272,8 @@
       <workItem from="1554197214828" duration="2026000" />
       <workItem from="1554472011779" duration="7711000" />
       <workItem from="1554797031806" duration="744000" />
-      <workItem from="1554829764313" duration="20895000" />
+      <workItem from="1554829764313" duration="22441000" />
+      <workItem from="1555227593855" duration="8554000" />
     </task>
     <servers />
   </component>
@@ -307,13 +286,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31376000" />
+    <option name="totallyTimeSpent" value="41476000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2602118" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26399395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -371,20 +350,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TaskOOP/Gems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TaskOOP/GemInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TaskOOP/Gems.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/TaskOOP/GemInterface.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/TaskOOP/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -395,13 +362,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TaskOOP/Diamond.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TaskOOP/Diamond.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-627">
@@ -409,47 +370,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TaskOOP/VVp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TaskOOP/VVp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/TaskOOP/PreciousNecklace.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/TaskOOP/Builder.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/TaskOOP/Output.java" />
     <entry file="file://$PROJECT_DIR$/TaskOOP.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TaskOOP/PreciousNecklace.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Formatter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TaskOOP/Builder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="46342">
+          <caret line="2805" selection-start-line="2805" selection-end-line="2805" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TaskOOP/SemiPreciousStone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        <state relative-caret-position="102">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TaskOOP/Output.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TaskOOP/PreciousStone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="72" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="72" />
+        <state relative-caret-position="68">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TaskOOP/Stone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TaskOOP/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="527">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -457,61 +415,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TaskOOP/PreciousStone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-          <folding>
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TaskOOP/Necklace.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+        <state relative-caret-position="187">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
             <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
             <element signature="e#983#984#0" expanded="true" />
             <element signature="e#1025#1026#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TaskOOP/Stone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="17" />
-          <folding>
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TaskOOP/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="88" column="95" selection-start-line="88" selection-start-column="95" selection-end-line="88" selection-end-column="95" />
-          <folding>
-            <element signature="e#1888#1889#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="171">
+          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
         </state>
       </provider>
     </entry>

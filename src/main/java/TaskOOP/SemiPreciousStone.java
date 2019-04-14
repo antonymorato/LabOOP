@@ -2,13 +2,11 @@ package TaskOOP;
 
 public class SemiPreciousStone extends Stone {
 
-//    private String name;
-//    private double weight;
-//    private double price;
 
-    public SemiPreciousStone(String name, double weight, double price,int transparency) {
+
+    public SemiPreciousStone( double weight, double price,int transparency) {
         super(weight,price,transparency);
-        this.name = name;
+        this.name = "Semi Precious Stone";
     }
 
     public void setName(String name) {
